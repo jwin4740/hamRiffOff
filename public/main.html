@@ -17,6 +17,8 @@
 <button id="stop"> STOP</button>
 <button id="jump"> JUMP</button>
 <button id="currentTime"> Give Time</button>
+<input id="customTime">
+<button id="custTime"> Custom Time</button>
 <div id="timestamps"></div>
 
 <script src="./javascripts/howler.core.js"></script>
@@ -44,9 +46,21 @@
         $('#timestamps').append(timestamp + '<br>');
     });
 
+    $('#custTime').on('click', function () {
+        var req = parseFloat($('#customTime').val());
+        console.log(req);
+        hamilton.stop();
+        hamilton.seek(req);
+        hamilton.play();
+        $('#customTime').val("");
+
+    });
+
+    // 167.608 jump to hamilton
 
     $('#jump').on('click', function () {
-          hamilton.seek(19);
+        hamilton.stop();
+        hamilton.seek(19);
         hamilton.play();
     });
 
