@@ -2,17 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Ham Riffoff</title>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
 </head>
 <body>
-<h1> howler</h1>
+<h1> HAMILTON HOWLER</h1>
+
+<button id="play"> PLAY</button>
+<button id="pause"> PAUSE</button>
+<button id="stop"> STOP</button>
+<button id="jump"> JUMP</button>
+<button id="currentTime"> Give Time</button>
+<div id="timestamps"></div>
 
 <script src="./javascripts/howler.core.js"></script>
 <script>
-    var sound = new Howl({
-        src: ['./audio/alexanderHamilton.mp3']
+    var hamilton = new Howl({
+        src: ['./audio/alexanderHamilton.mp3'],
+        rate: 1
 
     });
+
+    $('#play').on('click', function () {
+        hamilton.play();
+    });
+
+    $('#pause').on('click', function () {
+        hamilton.pause();
+    });
+
+    $('#stop').on('click', function () {
+        hamilton.stop();
+    });
+
+    $('#currentTime').on('click', function () {
+        var timestamp = hamilton.seek();
+        $('#timestamps').append(timestamp + '<br>');
+    });
+
+
+    $('#jump').on('click', function () {
+          hamilton.seek(19);
+        hamilton.play();
+    });
+
+
 </script>
 </body>
 </html>
