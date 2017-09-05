@@ -1,46 +1,56 @@
 var hamilton = new Howl({
-        src: ['./audio/firstSix.mp3'],
-        rate: 1
+    src: ['./audio/firstSix.mp3'],
+    rate: 1
 
-    });
+});
 
-    $('#play').on('click', function () {
-        hamilton.play();
-    });
+var hamLength;
 
-    $('#pause').on('click', function () {
-        hamilton.pause();
-    });
+$('#play').on('click', function () {
+    hamilton.play();
+});
 
-    $('#stop').on('click', function () {
-        hamilton.stop();
-    });
+$('#pause').on('click', function () {
+    hamilton.pause();
+});
 
-    $('#currentTime').on('click', function () {
-        var timestamp = hamilton.seek();
-        $('#timestamps').append(timestamp + '<br>');
-    });
+$('#stop').on('click', function () {
+    hamilton.stop();
+});
 
-    $('#custTime').on('click', function () {
-        var req = parseFloat($('#customTime').val());
-        console.log(req);
-        hamilton.stop();
-        hamilton.seek(req);
-        hamilton.play();
-        $('#customTime').val("");
+$('#currentTime').on('click', function () {
+    var timestamp = hamilton.seek();
+    $('#timestamps').append(timestamp + '<br>');
+});
 
-    });
+$('#custTime').on('click', function () {
+    var req = parseFloat($('#customTime').val());
+    console.log(req);
+    hamilton.stop();
+    hamilton.seek(req);
+    hamilton.play();
+    $('#customTime').val("");
 
-    // 167.608 jump to hamilton
+});
 
-    $('#jump').on('click', function () {
-        hamilton.stop();
-        hamilton.seek(goRand());
-        hamilton.play();
-    });
+// 167.608 jump to hamilton
+
+$('#jump').on('click', function () {
+    hamilton.stop();
+    hamilton.seek(goRand());
+    hamilton.play();
+});
 
 
-    function goRand(){
-        tem = Math.floor(Math.random()*230 + 10);
-        return tem;
-    }
+
+
+hamilton.on("load", function () {
+    hamLength = hamilton.duration();
+    console.log(hamLength);
+});
+
+function goRand() {
+    tem = (Math.random() * hamLength);
+    console.log(tem);
+    return tem;
+}
