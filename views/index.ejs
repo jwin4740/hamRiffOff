@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+    <link rel="shortcut icon" href="/images/hamIcon.jpg"/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <h1> HAMILTON HOWLER</h1>
+
+    <button id="play"> PLAY</button>
+    <button id="pause"> PAUSE</button>
+    <button id="stop"> STOP</button>
+    <button id="jump"> JUMP</button>
+    <button id="currentTime"> Give Time</button>
+    <input id="customTime">
+    <button id="custTime"> Custom Time</button>
+    <div id="timestamps"></div>
+    <script src="./javascripts/howler.core.js"></script>
+    <script src="/javascripts/main.js"></script>
+</body>
 </html>
