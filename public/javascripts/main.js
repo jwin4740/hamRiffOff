@@ -1,5 +1,5 @@
 var hamilton = new Howl({
-        src: ['./audio/alexanderHamilton.mp3'],
+        src: ['./audio/firstSix.mp3'],
         rate: 1
 
     });
