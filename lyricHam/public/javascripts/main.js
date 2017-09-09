@@ -2,12 +2,7 @@ var hamilton = new Howl({
     src: ['./audio/throughSatisfied.mp3'],
     rate: 1
 });
-var hamiltonArray = [80.37866666666667,
-    84.17066666666666, 167.66933333333333,
-    169.73866666666666,
-    181.75,
-    183.70933333333332, 232.34933333333333, 252.96, 1437.1493333333333, 1502.8613333333333, 1523.9493333333335,
-    1635.7386666666666, 1638.2293333333334, 1641.9786666666669, 2047.4986666666666];
+var hamiltonArray = [1436.95, 252.80, 232.349, 1502.86133, 2047.40, 181.72, 84.12, 1523.7, 80.2, 1635.62];
 var hamArrayLen = hamiltonArray.length;
 var hamLength;
 var timestamp;
@@ -65,6 +60,9 @@ $('#jumpTen').on('click', function () {
 hamilton.on("load", function () {
     hamLength = hamilton.duration();
     console.log(hamLength);
+    // setInterval(function () {
+    //     console.log(hamilton.seek());
+    // }, 50);
 });
 
 function goRand() {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/lyricHam.iml" filepath="$PROJECT_DIR$/.idea/lyricHam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hamDjango.iml" filepath="$PROJECT_DIR$/.idea/hamDjango.iml" />
     </modules>
   </component>
 </project>
