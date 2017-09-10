@@ -23,10 +23,40 @@
         }
 
         #playBox {
+            padding: 10px;
             float: left;
             border-radius: 5px;
             background-color: black;
             width: 50vw;
+        }
+
+        .waveformGif {
+            width: 100%;
+            height: 150px;
+        }
+
+        #timeDisplayDiv {
+            float: right;
+            color: white;
+            font-weight: bolder;
+            font-size: 16px;
+            padding: 0px 15px 5px 0px;
+        }
+
+        #timeBar {
+            cursor: pointer;
+            height: 7px;
+            width: 100%;
+            background-color: dimgray;
+            margin-bottom: 0px;
+            clear: both;
+            background-color: orange;
+        }
+
+        #buttonDiv {
+            padding: 10px;
+            padding-top: 15px;
+
         }
 
         .audioButton {
@@ -40,23 +70,6 @@
             float: right;
         }
 
-        #buttonDiv {
-            padding: 10px;
-            padding-top: 15px;
-
-        }
-
-        #timeBar {
-            cursor: pointer;
-            height: 7px;
-            background-color: dimgray;
-        }
-
-        .waveformGif {
-            width: 100%;
-            height: 150px;
-        }
-
 
     </style>
 </head>
@@ -66,9 +79,11 @@
 <div id="playBox">
     <img class="waveformGif" src="static/images/stillwave.gif" data-still="static/images/stillwave.gif"
          data-animate="static/images/activewave.gif" data-state="still" alt="waveform">
-
-    <div id="timeBar">
-
+    <div id="timeBarDiv">
+        <div id="timeDisplayDiv">
+            <span id="currentTime"></span> / <span id="totalTime"></span>
+        </div>
+         <progress id='timeBar' min="0" max="100" value="0"></progress>
     </div>
 
     <div id="buttonDiv">
@@ -83,9 +98,9 @@
     {#    <button id="pause"> PAUSE</button>#}
     {#    <button id="stop"> STOP</button>#}
     {#    <button id="jump"> JUMP</button>#}
-    {#    <button id="currentTime"> Give Time</button>#}
-    {#    <input id="customTime">#}
-    {#    <button id="custTime"> Custom Time</button>#}
+    <button id="currentTimeI"> Give Time</button>
+        <input id="customTime">
+        <button id="custTime"> Custom Time</button>
     <div id="timestamps"></div>
 </div>
 
