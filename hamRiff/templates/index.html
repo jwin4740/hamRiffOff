@@ -41,19 +41,22 @@
     </style>
 </head>
 <body>
+
 <h1> HAMILTON HOWLER</h1>
 <div id="playBox">
-    <img src="https://media.giphy.com/media/ecbD2CS054OY0/giphy.gif">
+    <img class="waveformGif" src="static/images/stillwave.gif" data-still="static/images/stillwave.gif"
+         data-animate="static/images/activewave.gif" data-state="still" alt="waveform">
     <div id="buttonDiv">
+
         <img src="static/images/rewind.png" class="audioButton">
         <img src="static/images/play.png" id="play" class="audioButton">
         <img src="static/images/pause.png" id="pause" class="audioButton">
-{#        <img src="static/images/forward.png" id="jump" class="audioButton">#}
+        {#        <img src="static/images/forward.png" id="jump" class="audioButton">#}
         <img src="static/images/stop.png" class="audioButton">
     </div>
     {#    <button id="pause"> PAUSE</button>#}
     {#    <button id="stop"> STOP</button>#}
-        <button id="jump"> JUMP</button>
+    <button id="jump"> JUMP</button>
     <button id="currentTime"> Give Time</button>
     <input id="customTime">
     <button id="custTime"> Custom Time</button>

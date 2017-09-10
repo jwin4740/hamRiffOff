@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759eb44b-d411-4bf3-a4bc-76f15629516c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lyricHam/public/images/hamIcon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lyricHam/public/javascripts/howler.core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lyricHam/public/javascripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lyricHam/public/stylesheets/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/A_Winter's_Ball.mp3" afterPath="$PROJECT_DIR$/static/audio/A_Winter's_Ball.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Aaron_Burr_ Sir.mp3" afterPath="$PROJECT_DIR$/static/audio/Aaron_Burr_ Sir.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Alexander_Hamilton.mp3" afterPath="$PROJECT_DIR$/static/audio/Alexander_Hamilton.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Farmer_Refuted.mp3" afterPath="$PROJECT_DIR$/static/audio/Farmer_Refuted.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Helpless.mp3" afterPath="$PROJECT_DIR$/static/audio/Helpless.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/My_Shot.mp3" afterPath="$PROJECT_DIR$/static/audio/My_Shot.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Right_Hand_Man.mp3" afterPath="$PROJECT_DIR$/static/audio/Right_Hand_Man.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/Satisfied.mp3" afterPath="$PROJECT_DIR$/static/audio/Satisfied.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/The_Schuyler_Sisters.mp3" afterPath="$PROJECT_DIR$/static/audio/The_Schuyler_Sisters.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/The_Story_Of_Tonight.mp3" afterPath="$PROJECT_DIR$/static/audio/The_Story_Of_Tonight.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/You'll_Be_Back.mp3" afterPath="$PROJECT_DIR$/static/audio/You'll_Be_Back.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/firstSix.mp3" afterPath="$PROJECT_DIR$/static/audio/firstSix.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lyricHam/public/audio/throughSatisfied.mp3" afterPath="$PROJECT_DIR$/static/audio/throughSatisfied.mp3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/hamRiff/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamDjango/settings.py" afterPath="$PROJECT_DIR$/hamDjango/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lyricHam/public/main.html" afterPath="$PROJECT_DIR$/lyricHam/public/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamRiff/templates/index.html" afterPath="$PROJECT_DIR$/hamRiff/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/javascripts/main.js" afterPath="$PROJECT_DIR$/static/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/stylesheets/style.css" afterPath="$PROJECT_DIR$/static/stylesheets/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +33,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hamRiff/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+            <state relative-caret-position="121">
+              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -65,50 +43,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamRiff/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamDjango/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding>
-                <element signature="e#643#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamRiff/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="47">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,8 +74,8 @@
         <option value="$PROJECT_DIR$/hamRiff/static/javascripts/main.js" />
         <option value="$PROJECT_DIR$/hamDjango/settings.py" />
         <option value="$PROJECT_DIR$/static/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/hamRiff/templates/index.html" />
         <option value="$PROJECT_DIR$/static/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/hamRiff/templates/index.html" />
       </list>
     </option>
   </component>
@@ -297,6 +233,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -306,7 +243,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2854701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2854701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -630,16 +567,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="47">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hamRiff/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state relative-caret-position="121">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding />
         </state>
       </provider>
