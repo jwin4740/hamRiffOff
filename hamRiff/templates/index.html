@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ham </title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/stylesheets/style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+
+    <style>
+        body {
+            padding: 50px;
+            font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+        }
+
+        a {
+            color: #00B7FF;
+        }
+
+        #playBox {
+            padding-top: 10px;
+            float: left;
+            border-radius: 5px;
+            background-color: black;
+        }
+
+        .audioButton {
+            height: 50px;
+            cursor: pointer;
+        }
+
+        #buttonDiv {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<h1> HAMILTON HOWLER</h1>
+<div id="playBox">
+    <img src="https://media.giphy.com/media/ecbD2CS054OY0/giphy.gif">
+    <div id="buttonDiv">
+        <img src="static/images/rewind.png" class="audioButton">
+        <img src="static/images/play.png" id="play" class="audioButton">
+        <img src="static/images/pause.png" id="pause" class="audioButton">
+{#        <img src="static/images/forward.png" id="jump" class="audioButton">#}
+        <img src="static/images/stop.png" class="audioButton">
+    </div>
+    {#    <button id="pause"> PAUSE</button>#}
+    {#    <button id="stop"> STOP</button>#}
+        <button id="jump"> JUMP</button>
+    <button id="currentTime"> Give Time</button>
+    <input id="customTime">
+    <button id="custTime"> Custom Time</button>
+    <div id="timestamps"></div>
+</div>
+
+<script src="static/javascripts/howler.core.js"></script>
+<script src="static/javascripts/main.js"></script>
+
+</body>
+</html>

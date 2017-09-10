@@ -1,5 +1,5 @@
 var hamilton = new Howl({
-    src: ['./audio/throughSatisfied.mp3'],
+    src: ['static/audio/throughSatisfied.mp3'],
     rate: 1
 });
 var hamiltonArray = [1436.95, 252.80, 232.349, 1502.86133, 2047.40, 181.72, 84.12, 1523.7, 80.2, 1635.62];
@@ -44,7 +44,9 @@ $('#custTime').on('click', function () {
 
 $('#jump').on('click', function () {
     hamilton.stop();
-    hamilton.seek(goRandHamilton());
+    var tempRand = goRand();
+    console.log(tempRand)
+    hamilton.seek(tempRand);
     hamilton.play();
 });
 
@@ -67,7 +69,6 @@ hamilton.on("load", function () {
 
 function goRand() {
     tem = (Math.random() * hamLength);
-    console.log(tem);
     return tem;
 }
 
