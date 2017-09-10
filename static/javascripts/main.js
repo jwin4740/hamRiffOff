@@ -2,8 +2,8 @@ var hamilton = new Howl({
     src: ['static/audio/throughSatisfied.mp3'],
     rate: 1
 });
-var activeSrc = "static/images/activewave2.gif";
-var stillSrc = "static/images/stillwave2.gif";
+var activeSrc = "static/images/activewave.gif";
+var stillSrc = "static/images/stillwave.gif";
 var waveformGif = $("<img>");
 var waveClass = $(".waveformGif");
 var playQuery = $("#play");

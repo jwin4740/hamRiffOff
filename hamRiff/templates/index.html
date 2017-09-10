@@ -23,10 +23,10 @@
         }
 
         #playBox {
-            padding: 25px;
             float: left;
             border-radius: 5px;
-            background-color: #414449;
+            background-color: black;
+            width: 50vw;
         }
 
         .audioButton {
@@ -34,9 +34,29 @@
             cursor: pointer;
         }
 
-        #buttonDiv {
-            text-align: center;
+        .jumper {
+            height: 50px;
+            cursor: pointer;
+            float: right;
         }
+
+        #buttonDiv {
+            padding: 10px;
+            padding-top: 15px;
+
+        }
+
+        #timeBar {
+            cursor: pointer;
+            height: 7px;
+            background-color: dimgray;
+        }
+
+        .waveformGif {
+            width: 100%;
+            height: 150px;
+        }
+
 
     </style>
 </head>
@@ -44,8 +64,13 @@
 
 <h1> HAMILTON HOWLER</h1>
 <div id="playBox">
-    <img class="waveformGif" src="static/images/stillwave2.gif" data-still="static/images/stillwave2.gif"
-         data-animate="static/images/activewave2.gif" data-state="still" alt="waveform">
+    <img class="waveformGif" src="static/images/stillwave.gif" data-still="static/images/stillwave.gif"
+         data-animate="static/images/activewave.gif" data-state="still" alt="waveform">
+
+    <div id="timeBar">
+
+    </div>
+
     <div id="buttonDiv">
 
         <img src="static/images/rewind.png" class="audioButton">
@@ -53,13 +78,14 @@
         <img src="static/images/pause.png" id="pause" class="audioButton">
         <img src="static/images/forward.png" class="audioButton">
         <img src="static/images/stop.png" class="audioButton">
+        <img src="static/images/jump.png" id='jump' class="jumper">
     </div>
     {#    <button id="pause"> PAUSE</button>#}
     {#    <button id="stop"> STOP</button>#}
-    <button id="jump"> JUMP</button>
-    <button id="currentTime"> Give Time</button>
-    <input id="customTime">
-    <button id="custTime"> Custom Time</button>
+    {#    <button id="jump"> JUMP</button>#}
+    {#    <button id="currentTime"> Give Time</button>#}
+    {#    <input id="customTime">#}
+    {#    <button id="custTime"> Custom Time</button>#}
     <div id="timestamps"></div>
 </div>
 
