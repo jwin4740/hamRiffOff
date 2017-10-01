@@ -6,6 +6,9 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../static/stylesheets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.9.2/i18n/jquery-ui-i18n.min.js"></script>
+
+
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -75,7 +78,7 @@
 </head>
 <body>
 
-<h1> HAMILTON HOWLER</h1>
+
 <div id="playBox">
     <img class="waveformGif" src="static/images/stillwave.gif" data-still="static/images/stillwave.gif"
          data-animate="static/images/activewave.gif" data-state="still" alt="waveform">
@@ -83,7 +86,7 @@
         <div id="timeDisplayDiv">
             <span id="currentTime"></span> / <span id="totalTime"></span>
         </div>
-         <progress id='timeBar' min="0" max="100" value="0"></progress>
+        <progress id='timeBar' min="0" max="100" value="0"></progress>
     </div>
 
     <div id="buttonDiv">
@@ -99,13 +102,16 @@
     {#    <button id="stop"> STOP</button>#}
     {#    <button id="jump"> JUMP</button>#}
     <button id="currentTimeI"> Give Time</button>
-        <input id="customTime">
-        <button id="custTime"> Custom Time</button>
+    <input id="customTime">
+    <button id="custTime"> Custom Time</button>
     <div id="timestamps"></div>
 </div>
 
 <script src="static/javascripts/howler.core.js"></script>
 <script src="static/javascripts/main.js"></script>
+<script>
+    $("#playBox").draggable();
+</script>
 
 </body>
 </html>

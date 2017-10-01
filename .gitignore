@@ -62,3 +62,6 @@ typings/
 
 lyricHam/songs/
 
+templates/
+
+*.mp3
