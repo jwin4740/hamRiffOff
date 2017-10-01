@@ -8,6 +8,7 @@ var waveformGif = $("<img>");
 var waveClass = $(".waveformGif");
 var playQuery = $("#play");
 var pauseQuery = $("#pause");
+var test;
 
 
 var hamiltonArray = [1436.95, 252.80, 232.349, 1502.86133, 2047.40, 181.72, 84.12, 1523.7, 80.2, 1635.62];
